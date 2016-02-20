@@ -6,7 +6,7 @@ This is a migration script for contao 2 sites migrated to contao 3 that used the
  * Contao 3.1.x
 
 ### Installation
-1. Place the config and classes folder in system/modules/newsgalleryC3Import
+1. Place the config and classes folders in system/modules/news_migration
 
 ### How to use
 _Prerequisite:_ Run the contao 3.0 and 3.1 Installation scripts
@@ -15,7 +15,7 @@ _Prerequisite:_ Run the contao 3.0 and 3.1 Installation scripts
 2. Update the database (e.g. with the _Extension manager_) this will execute the runonce
 3. Check the _System Log_ for the status of the news migration
 4. (Optional) Update the database and remove the now imported tl_news fields (Only 'addGallery' is automatically removed to prevent double import)
-5. (Optional) Remove the newsgalleryC3Import folder entirely
+5. (Optional) Remove the news_migration folder entirely
 
 
 ### Known Issues / To Dos
