@@ -1,3 +1,6 @@
+# [UNMAINTAINED]
+This project is not maintained anymore.
+
 # CONTAO EXTENSION: new_migration - Imports newsgallery into contao 3
 This is a migration script for contao 2 sites migrated to contao 3 that used the [newsgallery](https://contao.org/en/extension-list/view/newsgallery.10000069.en.html) extension. The extension is unlikely to be updated for contao 3 as the functionality can be achieved with the core. This extension will imports the newsgallery data into gallery content element of contao 3 news articles.
 
