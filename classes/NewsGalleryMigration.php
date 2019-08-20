@@ -96,6 +96,8 @@ class NewsGalleryMigration extends \Controller {
                 // Update the multi SRC to contao 3 files model
                 $files = unserialize($objResult->multiSRC);
 
+                $files = $files ?: [];
+
                 $multiSRC = array();
                 // Lookup each file path in the contao file model and get id
                 foreach ($files as $file)
@@ -106,7 +108,7 @@ class NewsGalleryMigration extends \Controller {
 
                     if ($find > 0)
                     {
-                        $multiSRC[] = $find->first()->id;
+                        $multiSRC[] = $find->first()->uuid;
                     }
                     else
                     {

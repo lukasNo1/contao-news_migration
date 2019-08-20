@@ -6,13 +6,13 @@ This is a migration script for contao 2 sites migrated to contao 3 that used the
 
 ## SETUP AND USAGE
 ### Prerequisites
- * Contao 3.1.x
+ * Contao 3.5.x
 
 ### Installation
 1. Place the config and classes folders in system/modules/news_migration
 
 ### How to use
-_Prerequisite:_ Run the contao 3.0 and 3.1 Installation scripts
+_Prerequisite:_ Run the contao 3.0 - 3.5 Installation scripts
 
 1. (Recommended) Backup your database
 2. Update the database (e.g. with the _Extension manager_) this will execute the runonce
